@@ -15,6 +15,7 @@
             <router-link class="header__link" to="#">Блог</router-link>
           </nav>
           <div class="header__cabinet">
+            <img src="@/assets/cabinet.png" alt="logo cabinet" class="logo__cabinet">
             <span>Личный кабинет</span>
           </div>
         </div>
@@ -80,5 +81,12 @@
 }
 .link{
   color: white;
+}
+.logo__cabinet{
+  background: white;
+  width: 15px;
+  border-radius: 25px;
+  border: 1px solid white;
+  margin-right: 5px;
 }
 </style>
